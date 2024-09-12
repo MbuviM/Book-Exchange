@@ -6,7 +6,6 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-app = FastAPI()
 # Connect my SQL database to FastAPI
 DATABASE_URL = "mysql+pymysql://root:password@localhost/bookexchange"
 
